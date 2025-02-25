@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
   return (
-    <h1 className="text-5xl">App</h1>
+    <h1 className="text-5xl font-sans">App</h1>
   )
 }
 
