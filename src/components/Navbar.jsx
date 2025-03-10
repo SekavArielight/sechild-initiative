@@ -6,14 +6,14 @@ import { Link } from "react-router";
 const Navbar = () => {
   return (
     <nav className="bg-transparent absolute top-0 left-0 w-full z-50 flex items-center justify-between px-32 py-5">
-      <a href="/">
+      <Link to="/">
         <img src="/src/assets/hilink-logo.svg" alt="logo" />
-      </a>
+      </Link>
 
       <div>
         {navigation.map((item) => (
           <Link
-            href={item.url}
+            to={item.url}
             key={item.id}
             className="mx-3 text-sm text-[#fff]"
           >
